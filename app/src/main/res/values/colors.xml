@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="kiwiStrong">#7AC70C</color>
+    <color name="kiwiMedium">#8EE000</color>
+    <color name="kiwiLight">#BFF199</color>
+
+    <color name="blueberryStrong">#1CB0F6</color>
+    <color name="blueberryMedium">#14D4F4</color>
+    <color name="blueberryLight">#BCE9FF</color>
+
+    <color name="raspberryStrong">#D33131</color>
+    <color name="raspberryMedium">#E53B3B</color>
+    <color name="raspberryLight">#FF9797</color>
+
+    <color name="bananaStrong">#FFB020</color>
+    <color name="bananaMedium">#FFC300</color>
+    <color name="bananaLight">#FFF277</color>
+
+    <color name="pumpkinStrong">#FA811B</color>
+    <color name="pumpkinMedium">#FF9400</color>
+    <color name="pumpkinLight">#FFCF7A</color>
+
+    <color name="jellyStrong">#8549BA</color>
+    <color name="jellyMedium">#A560EB</color>
+    <color name="jellyLight">#CA94FF</color>
+
+    <color name="cocoaStrong">#864E1B</color>
+    <color name="cocoaMedium">#A86425</color>
+    <color name="cocoaLight">#DEAC5F</color>
+
+    <color name="licoriceStrong">#4C4C4C</color>
+    <color name="licoriceMedium">#777777</color>
+    <color name="licoriceLight">#AFAFAF</color>
+
+    <color name="cloudStrong">#CFCFCF</color>
+    <color name="cloudMedium">#DDDDDD</color>
+    <color name="cloudLight">#F0F0F0</color>
+
+    <color name="creme">#FFFFFF</color>
+
+</resources>
