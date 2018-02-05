@@ -1,0 +1,33 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.macintosh.myduolingo.ui.fragments.IntroSectionAFragment"
+    android:weightSum="1"
+    android:orientation="vertical"
+    android:background="@color/blueberryStrong">
+
+    <android.support.v4.widget.Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.3"/>
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="0dp"
+        android:layout_weight="0.20"
+        android:layout_gravity="center"
+        android:src="@mipmap/ic_duolingo_launcher"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.20"
+        android:text="@string/intro_section_a"
+        android:textSize="@dimen/intro_text_font_size"
+        android:textStyle="normal"
+        android:gravity="center"
+        android:textColor="@color/creme"/>
+
+</LinearLayout>

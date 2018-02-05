@@ -2,4 +2,14 @@
     <string name="app_name">MyDuolingo</string>
     <string name="choose_lang_title">Quiero aprender...</string>
     <string name="courses_in_english">Courses taught in English</string>
+
+    <string name="btn_get_started">Get Started</string>
+    <string name="btn_go_to_login">I already have an account</string>
+
+    <string name="intro_section_a">Free language education for the world.</string>
+    <string name="intro_section_b">Earn achievements to track your progress in the language.</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
 </resources>

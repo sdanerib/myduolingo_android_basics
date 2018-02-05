@@ -11,20 +11,18 @@
         android:theme="@style/AppTheme">
         <activity
             android:name=".SplashActivity"
-            android:theme="@style/SplashTheme"
-            >
+            android:theme="@style/SplashTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".IntroActivity">
 
-        <activity
-            android:name=".IntroActivity"
-            android:label="@string/choose_lang_title">
-
+            <!-- android:label="@string/choose_lang_title" -->
         </activity>
+        <activity android:name=".LanguageToLearnChoiceActivity"></activity>
     </application>
 
 </manifest>

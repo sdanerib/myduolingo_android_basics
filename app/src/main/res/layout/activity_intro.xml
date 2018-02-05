@@ -4,43 +4,80 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:layout_gravity="bottom"
+    android:background="@color/blueberryStrong"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
     tools:context="com.example.macintosh.myduolingo.IntroActivity">
 
     <android.support.v4.view.ViewPager
         android:id="@+id/viewPager"
-        android:layout_width="376dp"
-        android:layout_height="298dp"
+        android:layout_width="0dp"
+        android:layout_height="400dp"
+
+        android:layout_marginBottom="20dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/getStartedBtn"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <Button
-        android:id="@+id/button"
-        android:layout_width="wrap_content"
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/getStartedBtn"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="52dp"
+
+        android:background="@drawable/shape_white_button"
+
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:paddingLeft="20px"
+        android:paddingRight="20px"
+
+        android:text="@string/btn_get_started"
+        android:textColor="@color/blueberryStrong"
+
+        android:textSize="@dimen/btn_font_size"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.833"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/viewPager" />
+
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/iAlreadyHaveAccBtn"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="match_parent"
+
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
+
         android:layout_marginTop="20dp"
-        android:text="Button"
+
+        android:background="@drawable/shape_blueberry_medium_button"
+        android:paddingLeft="20px"
+        android:paddingRight="20px"
+
+        android:text="@string/btn_go_to_login"
+        android:textColor="@color/creme"
+        android:textSize="@dimen/btn_font_size"
+
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.833"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button2"
+        app:layout_constraintTop_toBottomOf="@+id/getStartedBtn"
         app:layout_constraintVertical_bias="0.0" />
 
-    <Button
-        android:id="@+id/button2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="8dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="28dp"
-        android:text="Button"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/viewPager" />
+
 </android.support.constraint.ConstraintLayout>
