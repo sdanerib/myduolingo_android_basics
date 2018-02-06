@@ -27,7 +27,8 @@
         android:textSize="@dimen/intro_text_font_size"
         android:textStyle="normal"
         android:gravity="center"
-        android:textColor="@color/creme"/>
+        android:textColor="@color/creme"
+        android:layout_margin="20dp"/>
 
 
 </LinearLayout>

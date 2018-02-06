@@ -6,19 +6,16 @@
     android:layout_height="match_parent"
     android:layout_gravity="bottom"
     android:background="@color/blueberryStrong"
-    android:paddingLeft="20dp"
-    android:paddingRight="20dp"
     tools:context="com.example.macintosh.myduolingo.IntroActivity">
 
     <android.support.v4.view.ViewPager
         android:id="@+id/viewPager"
-        android:layout_width="0dp"
+        android:layout_width="match_parent"
         android:layout_height="400dp"
 
         android:layout_marginBottom="20dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginStart="8dp"
         android:layout_marginTop="20dp"
+
         app:layout_constraintBottom_toTopOf="@+id/getStartedBtn"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -39,8 +36,7 @@
 
         android:paddingTop="15dp"
         android:paddingBottom="15dp"
-        android:paddingLeft="20px"
-        android:paddingRight="20px"
+        android:layout_margin="30dp"
 
         android:text="@string/btn_get_started"
         android:textColor="@color/blueberryStrong"
@@ -65,8 +61,7 @@
         android:layout_marginTop="20dp"
 
         android:background="@drawable/shape_blueberry_medium_button"
-        android:paddingLeft="20px"
-        android:paddingRight="20px"
+        android:layout_margin="30dp"
 
         android:text="@string/btn_go_to_login"
         android:textColor="@color/creme"
