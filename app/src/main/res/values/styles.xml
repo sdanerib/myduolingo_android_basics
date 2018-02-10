@@ -10,7 +10,7 @@
         -->
 
         <item name="colorPrimary">@color/blueberryStrong</item>
-        <item name="colorPrimaryDark">@color/blueberryMedium</item>
+        <item name="colorPrimaryDark">@color/opacityBlueberryStrong</item>
         <item name="colorAccent">@color/colorAccent</item>
 
     </style>
@@ -26,11 +26,9 @@
 
     </style>
 
+
     <style name="IWantToLearnTheme" parent="Base.Widget.AppCompat.Light.ActionBar">
         <item name="android:windowContentTransitions">true</item>
-        <item name="android:windowEnterTransition">@transition/activity_fade</item>
-        <item name="android:windowExitTransition">@transition/activity_slide</item>
-
     </style>
 
 

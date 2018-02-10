@@ -1,10 +1,12 @@
-package com.example.macintosh.myduolingo.ui.models;
+package com.example.macintosh.myduolingo.models;
+
+import java.io.Serializable;
 
 /**
  * Created by macintosh on 2/5/18.
  */
 
-public class LanguageToLearnEntity {
+public class LanguageToLearnEntity implements Serializable{
 
     private int id;
     private String langAbbr;
