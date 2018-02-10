@@ -9,7 +9,6 @@
         android:roundIcon="@mipmap/ic_duolingo_pet"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-
         <activity
             android:name=".SplashActivity"
             android:theme="@style/SplashTheme">
@@ -19,15 +18,17 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-        <activity android:name=".IntroActivity">
-        </activity>
+        <activity android:name=".IntroActivity"></activity>
 
         <activity
             android:name=".LanguageToLearnChoiceActivity"
             android:label="@string/courses_in_english">
+
         </activity>
 
+        <activity android:name=".DailyGoalSettingsActivity">
+
+        </activity>
     </application>
 
 </manifest>
