@@ -12,4 +12,21 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 
+    <string name="activity_login_title">Ingresar</string>
+    <string name="txt_hint_user_login">Usuario o correo</string>
+    <string name="txt_hint_user_password">Contraseña</string>
+
+    <string name="btn_text_enter">Ingresar</string>
+    <string name="btn_text_forgot_password">Restablecer Contraseña</string>
+
+    <string name="txtv_one_tap_sign_in">Acceso rápido</string>
+
+    <string name="btn_text_google">Google</string>
+    <string name="btn_text_facebook">Facebook</string>
+
+    <string name="txt_wrong_username_or_password">Usuario o contraseña incorrecta</string>
+    <string name="txt_login_successful">Login exitoso!</string>
+
+    <string name="required_field">Campo requerido</string>
+
 </resources>
