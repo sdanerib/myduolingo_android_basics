@@ -7,6 +7,5 @@
     <corners
         android:topLeftRadius="3dp"
         android:topRightRadius="3dp" />
-    <stroke android:color="@color/cloudStrong" android:width="1dp"></stroke>
 
 </shape>
