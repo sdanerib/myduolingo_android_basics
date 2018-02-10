@@ -41,5 +41,8 @@
     <color name="cloudLight">#F0F0F0</color>
 
     <color name="creme">#FFFFFF</color>
+    <color name="facebook">#415993</color>
+    <color name="btnDisabled">#90d0f5</color>
+
 
 </resources>

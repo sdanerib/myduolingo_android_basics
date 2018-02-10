@@ -21,6 +21,7 @@ public class IntroActivity extends AppCompatActivity implements OnFragmentIntera
     private Button getStartedBtn;
     private Button iAlreadyHaveAccBtn;
     private Intent goToLearningChoice;
+    private Intent loginActivity;
 
 
     @Override
@@ -62,8 +63,8 @@ public class IntroActivity extends AppCompatActivity implements OnFragmentIntera
         iAlreadyHaveAccBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                //TODO:
-                //REDIRECT TO LOGIN ACTIVITY
+                loginActivity = new Intent(getBaseContext(),LoginActivity.class);
+                startActivity(loginActivity);
             }
         });
 
