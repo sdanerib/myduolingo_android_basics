@@ -6,4 +6,11 @@
     android:layout_height="match_parent"
     tools:context="com.example.macintosh.myduolingo.LanguageToLearnChoiceActivity">
 
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerViewLanguages"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true" />
+    
 </RelativeLayout>

@@ -19,5 +19,19 @@
         <item name="android:windowBackground">@drawable/splash_background</item>
     </style>
 
+    <style name="IntroTheme" parent="Theme.AppCompat">
+        <item name="android:windowContentTransitions">true</item>
+        <item name="android:windowExitTransition">@transition/activity_slide</item>
+        <item name="android:windowEnterTransition">@transition/activity_fade</item>
+
+    </style>
+
+    <style name="IWantToLearnTheme" parent="Base.Widget.AppCompat.Light.ActionBar">
+        <item name="android:windowContentTransitions">true</item>
+        <item name="android:windowEnterTransition">@transition/activity_fade</item>
+        <item name="android:windowExitTransition">@transition/activity_slide</item>
+
+    </style>
+
 
 </resources>

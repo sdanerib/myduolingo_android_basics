@@ -2,6 +2,7 @@
 <resources>
 
     <dimen name="btn_font_size">18dp</dimen>
+    <dimen name="tvi_font_size">14dp</dimen>
     <dimen name="intro_text_font_size">22dp</dimen>
     <dimen name="btn_font_weight">700</dimen>
 

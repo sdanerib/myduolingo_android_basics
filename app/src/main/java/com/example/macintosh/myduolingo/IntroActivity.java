@@ -5,6 +5,9 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
+import android.transition.Fade;
+import android.transition.Slide;
+import android.transition.TransitionInflater;
 import android.view.View;
 import android.widget.Button;
 
@@ -24,10 +27,20 @@ public class IntroActivity extends AppCompatActivity implements OnFragmentIntera
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         getSupportActionBar().hide();
+        setupWindowAnimations();
         setContentView(R.layout.activity_intro);
         ui(savedInstanceState);
         setupViewPager(viewPager);
 
+    }
+
+    private void setupWindowAnimations() {
+        Slide slide = (Slide) TransitionInflater.from(this).inflateTransition(R.transition.activity_slide);
+        getWindow().setExitTransition(slide);
+
+        Fade fade = new Fade();
+        fade.setDuration(2000);
+        getWindow().setReturnTransition(fade);
 
     }
 
@@ -67,4 +80,6 @@ public class IntroActivity extends AppCompatActivity implements OnFragmentIntera
     public void onFragmentInteraction(Uri uri) {
         onBackPressed();
     }
+
+
 }
