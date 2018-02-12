@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center_vertical">
+    <item
+        android:id="@+id/learnBar"
+        android:enabled="true"
+        android:icon="@mipmap/ic_store_black_48dp"
+        android:title="@string/learnBarText"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/profileBar"
+        android:enabled="true"
+        android:icon="@mipmap/ic_store_black_48dp"
+        android:title="@string/profileBarText"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/clubBar"
+        android:enabled="true"
+        android:icon="@mipmap/ic_store_black_48dp"
+        android:title="@string/clubBarText"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/storeBar"
+        android:enabled="true"
+        android:icon="@mipmap/ic_store_black_48dp"
+        android:title="@string/storeBarText"
+        app:showAsAction="ifRoom" />
+</menu>

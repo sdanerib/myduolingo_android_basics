@@ -29,4 +29,18 @@
 
     <string name="required_field">Campo requerido</string>
 
+    <string name="dashboard_daily_goal_status">Daily Goal Status</string>
+    <string name="dashboard_user_lvl_status">User Level</string>
+
+    <string name="toolbar_more_options">Config</string>
+    <string name="dashboard_more_options">Configuración</string>
+    <string name="share_progress">Comparte tu progreso</string>
+    <string name="suggestions">Sugerencias</string>
+    <string name="close_session">Cerrar sesión</string>
+
+    <string name="learnBarText">Aprender</string>
+    <string name="profileBarText">Perfil</string>
+    <string name="clubBarText">Clubs</string>
+    <string name="storeBarText">Tienda</string>
+
 </resources>

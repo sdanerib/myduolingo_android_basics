@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="12dp"
+    android:layout_height="12dp"
+    android:layout_gravity="center">
+
+    <Icon
+        android:id="@+id/iviUserLvlIcon"
+        android:layout_width="@dimen/menu_item_icon_size"
+        android:layout_height="@dimen/menu_item_icon_size"
+        android:layout_gravity="center"
+        android:src="@drawable/gray_crown"/>
+
+    <TextView
+        android:id="@+id/tviUserLvl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="@color/licoriceMedium"
+        android:textSize="@dimen/tvi_font_size"
+        android:text="0"/>
+
+</FrameLayout>

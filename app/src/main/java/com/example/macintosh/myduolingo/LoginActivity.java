@@ -1,15 +1,18 @@
 package com.example.macintosh.myduolingo;
 
 import android.app.Activity;
-import android.support.v7.app.AppCompatActivity;
+import android.content.Intent;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.text.Editable;
 import android.text.TextWatcher;
 import android.view.View;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.Toast;
+
+import com.example.macintosh.myduolingo.models.LanguageToLearnEntity;
+import com.example.macintosh.myduolingo.storage.LanguageToLearnData;
 
 public class LoginActivity extends AppCompatActivity {
 
@@ -17,6 +20,8 @@ public class LoginActivity extends AppCompatActivity {
     private EditText txtPassword;
     private Button btnLogin;
     private String ACCESS_LOGIN = "DUOLINGO";
+    private LanguageToLearnEntity languageToLearnObj;
+    private Intent navIntent;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -77,8 +82,14 @@ public class LoginActivity extends AppCompatActivity {
                 hideKeyboard();
                 if (isFormValid()) {
                     if (txtUsername.getText().toString().equals(ACCESS_LOGIN) && txtPassword.getText().toString().equals(ACCESS_LOGIN)){
-                        clearForm();
-                        Toast.makeText(LoginActivity.this, getString(R.string.txt_login_successful), Toast.LENGTH_SHORT).show();
+                        //clearForm();
+                        //Toast.makeText(LoginActivity.this, getString(R.string.txt_login_successful), Toast.LENGTH_SHORT).show();
+                        languageToLearnObj  = new LanguageToLearnData().getStudiedLanguage();
+                        navIntent = new Intent(LoginActivity.this, UserSessionDashboard.class);
+                        navIntent.putExtra("STUDIED_LANGUAGE", languageToLearnObj);
+                        startActivity(navIntent);
+                        finish();
+
                     }else{
                         txtPassword.setError(getString(R.string.txt_wrong_username_or_password));
                     }

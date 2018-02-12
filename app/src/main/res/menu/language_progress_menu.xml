@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- android:icon="@drawable/icon_goal"-->
+    <!--<item
+        android:id="@+id/dailyGoals"
+        android:title="@string/dashboard_daily_goal_status"
+        android:actionLayout="@layout/daily_goals_layout"
+        android:src="@drawable/icon_goal"
+
+        app:showAsAction="ifRoom|withText">
+
+    </item>
+
+    <item
+        android:id="@+id/userLevel"
+        android:title="@string/dashboard_user_lvl_status"
+        android:actionLayout="@layout/user_lvl_layout"
+        android:src="@drawable/gray_crown"
+
+        app:showAsAction="ifRoom|withText">
+
+    </item>-->
+
+    <item
+        android:id="@+id/moreOptions"
+        android:icon="@mipmap/ic_more_vert_black_24dp"
+        android:title="@string/toolbar_more_options"
+        app:showAsAction="never">
+
+        <!-- submenu -->
+        <item
+            android:id="@+id/dashboardMoreOptions"
+            android:title="@string/dashboard_more_options" />
+
+        <item
+            android:id="@+id/shareProgress"
+            android:title="@string/share_progress" />
+
+        <item
+            android:id="@+id/suggestions"
+            android:title="@string/suggestions" />
+
+        <item
+            android:id="@+id/closeSession"
+            android:title="@string/close_session" />
+    </item>
+
+</menu>

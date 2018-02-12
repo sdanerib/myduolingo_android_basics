@@ -36,6 +36,11 @@ public class LanguageToLearnData {
         return languagesToLearnEntityList;
     }
 
+    public LanguageToLearnEntity getStudiedLanguage(){
+        return new LanguageToLearnData().generateLanguagesList().get(4);
+    }
+
+
     public void logAllArrayElements(List<LanguageToLearnEntity> languagesToLearnEntityList){
         for(LanguageToLearnEntity lang: languagesToLearnEntityList){
             Log.d("ARRAY_ELEMS",lang.getLangName());

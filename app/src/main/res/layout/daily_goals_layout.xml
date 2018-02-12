@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="12dp"
+    android:layout_height="12dp"
+    android:layout_gravity="center">
+
+    <ImageView
+        android:id="@+id/iviDailyGoalsIcon"
+        android:layout_width="@dimen/menu_item_icon_size"
+        android:layout_height="@dimen/menu_item_icon_size"
+        android:layout_gravity="center"
+        android:src="@drawable/icon_goal" />
+
+    <TextView
+        android:id="@+id/tviDailyGoals"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="@color/pumpkinStrong"
+        android:textSize="@dimen/tvi_font_size"
+        android:text="1"/>
+
+</FrameLayout>
