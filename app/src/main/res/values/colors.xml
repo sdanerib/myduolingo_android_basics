@@ -45,5 +45,11 @@
     <color name="facebook">#415993</color>
     <color name="btnDisabled">#90d0f5</color>
 
+    <color name="grayStrong">#626262</color>
+    <color name="grayMedium">#F2F2F2</color>
+    <color name="grayLight">#c6c6c6</color>
+    
+    <color name="greenStrong">#8ac646</color>
+
 
 </resources>

@@ -42,5 +42,19 @@
     <string name="profileBarText">Perfil</string>
     <string name="clubBarText">Clubs</string>
     <string name="storeBarText">Tienda</string>
+    <string name="title_activity_dayli_goal">Elige una meta diaria</string>
+
+    <string name="goal_option_1">Relajado</string>
+    <string name="goal_option_2">Normal</string>
+    <string name="goal_option_3">Serio</string>
+    <string name="goal_option_4">Intenso</string>
+
+    <string name="goal_description_option_1">5 minutos al día</string>
+    <string name="goal_description_option_2">10 minutos al día</string>
+    <string name="goal_description_option_3">15 minutos al día</string>
+    <string name="goal_description_option_4">20 minutos al día</string>
+
+    <string name="message_dayli_goal">Puedes cambiar tu meta mas adelante</string>
+    <string name="btn_text_continue">Continuar</string>
 
 </resources>
