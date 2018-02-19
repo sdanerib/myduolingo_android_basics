@@ -10,16 +10,16 @@ import android.widget.ImageButton;
 import com.example.macintosh.myduolingo.models.LanguageToLearnEntity;
 import com.example.macintosh.myduolingo.storage.LanguageToLearnData;
 
-public class WhatIsYourNameActivity extends AppCompatActivity {
+public class WhatIsYourEmailActivity extends AppCompatActivity {
     private Button btnContinue;
     private ImageButton btnClose;
     private Intent navIntent;
-    // private LanguageToLearnEntity languageToLearnObj;
+    private LanguageToLearnEntity languageToLearnObj;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_what_is_your_name);
+        setContentView(R.layout.activity_what_is_your_email);
 
         ui();
     }
@@ -34,9 +34,9 @@ public class WhatIsYourNameActivity extends AppCompatActivity {
         btnContinue.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                // languageToLearnObj  = new LanguageToLearnData().getStudiedLanguage();
-                navIntent = new Intent(WhatIsYourNameActivity.this, WhatIsYourEmailActivity.class);
-                // navIntent.putExtra("STUDIED_LANGUAGE", languageToLearnObj);
+                languageToLearnObj  = new LanguageToLearnData().getStudiedLanguage();
+                navIntent = new Intent(WhatIsYourEmailActivity.this, UserSessionDashboard.class);
+                navIntent.putExtra("STUDIED_LANGUAGE", languageToLearnObj);
                 startActivity(navIntent);
             }
         });
