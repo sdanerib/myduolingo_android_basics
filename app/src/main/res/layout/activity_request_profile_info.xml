@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grayMedium">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="30dp"
+        android:scrollbars="vertical"
+        tools:context="com.example.macintosh.myduolingo.RequestProfileInfoActivity">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/title_request_profile_info"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textColor="@color/licoriceStrong"
+            android:textSize="25sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingVertical="10dp"
+            android:text="@string/description_request_profile_info"
+            android:textAlignment="center"
+            android:textColor="@color/licoriceMedium"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:src="@drawable/little_boy_white"
+            android:layout_marginVertical="15dp"/>
+
+        <Button
+            android:id="@+id/btn_create_profile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="6dp"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/shape_principal_button"
+            android:paddingVertical="14dp"
+            android:text="@string/btn_1_bottom_request_profile_info"
+            android:textAllCaps="true"
+            android:textColor="@color/creme"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/btn_later"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape_btn_full_transparent"
+            android:paddingVertical="14dp"
+            android:text="@string/btn_2_bottom_request_profile_info"
+            android:textAllCaps="true"
+            android:textColor="@color/blueberryClear"
+            android:textSize="16sp" />
+    </LinearLayout>
+</ScrollView>

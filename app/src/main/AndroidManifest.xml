@@ -9,10 +9,27 @@
         android:roundIcon="@mipmap/ic_duolingo_pet"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-
         <activity
             android:name=".SplashActivity"
             android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".IntroActivity" />
+        <activity
+            android:name=".LanguageToLearnChoiceActivity"
+            android:label="@string/courses_in_english" />
+        <activity android:name=".DailyGoalSettingsActivity" />
+        <activity
+            android:name=".LoginActivity"
+            android:label="@string/activity_login_title" />
+        <activity
+            android:name=".UserSessionDashboard"
+            android:theme="@style/UserSessionDashboardTheme">
+
             <!--
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -21,33 +38,60 @@
             </intent-filter>
             -->
         </activity>
-
-        <activity android:name=".IntroActivity" />
-
         <activity
-            android:name=".LanguageToLearnChoiceActivity"
-            android:label="@string/courses_in_english"></activity>
-        <activity android:name=".DailyGoalSettingsActivity"></activity>
+            android:name=".DailyGoalActivity"
+            android:label="@string/title_activity_dayli_goal">
 
-        <activity
-            android:name=".LoginActivity"
-            android:label="@string/activity_login_title">
-        </activity>
-
-        <activity
-            android:name=".UserSessionDashboard"
-            android:theme="@style/UserSessionDashboardTheme">
-
-
+            <!--
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-
-
+            -->
         </activity>
+        <activity
+            android:name=".RequestProfileInfoActivity"
+            android:label="@string/title_activity_request_profile_info"
+            android:theme="@style/AppTheme.NoActionBar">
 
+            <!--
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            -->
+        </activity>
+        <activity
+            android:name=".WhatIsYourNameActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+
+            <!--
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            -->
+        </activity>
+        <activity
+            android:name=".WhatIsYourEmailActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <!--<intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>-->
+        </activity>
+        <activity android:name=".CreatePasswordActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <!--<intent-filter>-->
+                <!--<action android:name="android.intent.action.MAIN" />-->
+
+                <!--<category android:name="android.intent.category.LAUNCHER" />-->
+            <!--</intent-filter>-->
+        </activity>
     </application>
 
 </manifest>

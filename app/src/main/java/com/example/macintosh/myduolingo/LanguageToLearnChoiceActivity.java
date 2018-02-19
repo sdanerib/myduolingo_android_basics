@@ -81,7 +81,7 @@ public class LanguageToLearnChoiceActivity extends AppCompatActivity implements 
     }
 
     private void goToDailyGoalSettings(LanguageToLearnEntity chosenLanguageToLearn) {
-        navIntent = new Intent(this, DailyGoalSettingsActivity.class);
+        navIntent = new Intent(this, DailyGoalActivity.class);
         navIntent.putExtra("CHOSEN_LANG_TO_LEARN", (Serializable) chosenLanguageToLearn);
 
         startActivity(navIntent);

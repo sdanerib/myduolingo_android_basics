@@ -12,6 +12,7 @@
     <color name="blueberryStrong">#1CB0F6</color>
     <color name="blueberryMedium">#14D4F4</color>
     <color name="blueberryLight">#BCE9FF</color>
+    <color name="blueberryClear">#52aff0</color>
 
     <color name="raspberryStrong">#D33131</color>
     <color name="raspberryMedium">#E53B3B</color>
@@ -44,6 +45,12 @@
     <color name="creme">#FFFFFF</color>
     <color name="facebook">#415993</color>
     <color name="btnDisabled">#90d0f5</color>
+
+    <color name="grayStrong">#626262</color>
+    <color name="grayMedium">#F2F2F2</color>
+    <color name="grayLight">#c6c6c6</color>
+    
+    <color name="greenStrong">#8ac646</color>
 
 
 </resources>

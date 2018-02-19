@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grayMedium"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="30dp"
+    tools:context="com.example.macintosh.myduolingo.DailyGoalActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.4"
+        android:orientation="horizontal">
+
+        <RadioGroup
+            android:id="@+id/goalsOptions"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:gravity="right"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/relaxedGoal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingVertical="15dp"
+                android:paddingHorizontal="5dp"
+                android:buttonTint="@color/blueberryStrong"
+                android:background="@drawable/shape_border_bottom"
+                android:text="@string/goal_option_1"
+                android:textColor="@color/grayStrong" />
+
+            <RadioButton
+                android:id="@+id/normalGoal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingVertical="15dp"
+                android:paddingHorizontal="5dp"
+                android:buttonTint="@color/blueberryStrong"
+                android:background="@drawable/shape_border_bottom"
+                android:text="@string/goal_option_2"
+                android:textColor="@color/grayStrong" />
+
+            <RadioButton
+                android:id="@+id/seriousGoal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingVertical="15dp"
+                android:paddingHorizontal="5dp"
+                android:buttonTint="@color/blueberryStrong"
+                android:background="@drawable/shape_border_bottom"
+                android:text="@string/goal_option_3"
+                android:textColor="@color/grayStrong" />
+
+            <RadioButton
+                android:id="@+id/intenseGoal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingVertical="15dp"
+                android:paddingHorizontal="5dp"
+                android:buttonTint="@color/blueberryStrong"
+                android:background="@drawable/shape_border_bottom"
+                android:text="@string/goal_option_4"
+                android:textColor="@color/grayStrong" />
+
+        </RadioGroup>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:paddingRight="5dp"
+            android:weightSum="0.546"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.1265"
+                android:background="@drawable/shape_border_bottom"
+                android:gravity="center_vertical"
+                android:text="@string/goal_description_option_1"
+                android:textColor="@color/grayLight"
+                android:textAlignment="textEnd" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.1265"
+                android:background="@drawable/shape_border_bottom"
+                android:gravity="center_vertical"
+                android:text="@string/goal_description_option_2"
+                android:textColor="@color/grayLight"
+                android:textAlignment="textEnd" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.1265"
+                android:background="@drawable/shape_border_bottom"
+                android:gravity="center_vertical"
+                android:text="@string/goal_description_option_3"
+                android:textColor="@color/grayLight"
+                android:textAlignment="textEnd" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.1265"
+                android:background="@drawable/shape_border_bottom"
+                android:gravity="center_vertical"
+                android:text="@string/goal_description_option_4"
+                android:textColor="@color/grayLight"
+                android:textAlignment="textEnd" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.4"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/duolingo_graduated"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape_tooltip"
+            android:padding="15dp"
+            android:paddingHorizontal="20dp"
+            android:elevation="2dp"
+            android:text="@string/message_dayli_goal"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.2"
+        android:gravity="center_vertical">
+        <Button
+            android:id="@+id/btn_continue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/shape_green_button"
+            android:paddingVertical="14dp"
+            android:text="@string/btn_text_continue"
+            android:textAllCaps="true"
+            android:textSize="16sp"
+            android:textColor="@color/creme"/>
+    </LinearLayout>
+
+</LinearLayout>
