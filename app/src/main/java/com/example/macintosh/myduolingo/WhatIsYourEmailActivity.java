@@ -7,14 +7,10 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ImageButton;
 
-import com.example.macintosh.myduolingo.models.LanguageToLearnEntity;
-import com.example.macintosh.myduolingo.storage.LanguageToLearnData;
-
 public class WhatIsYourEmailActivity extends AppCompatActivity {
     private Button btnContinue;
     private ImageButton btnClose;
     private Intent navIntent;
-    private LanguageToLearnEntity languageToLearnObj;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,9 +30,7 @@ public class WhatIsYourEmailActivity extends AppCompatActivity {
         btnContinue.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                languageToLearnObj  = new LanguageToLearnData().getStudiedLanguage();
-                navIntent = new Intent(WhatIsYourEmailActivity.this, UserSessionDashboard.class);
-                navIntent.putExtra("STUDIED_LANGUAGE", languageToLearnObj);
+                navIntent = new Intent(WhatIsYourEmailActivity.this, CreatePasswordActivity.class);
                 startActivity(navIntent);
             }
         });
