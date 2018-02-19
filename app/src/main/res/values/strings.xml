@@ -56,5 +56,11 @@
 
     <string name="message_dayli_goal">Puedes cambiar tu meta mas adelante</string>
     <string name="btn_text_continue">Continuar</string>
+    <string name="title_activity_request_profile_info">RequestProfileInfoActivity</string>
+
+    <string name="title_request_profile_info">!Es momento de crear tu perfil!</string>
+    <string name="description_request_profile_info">Crea un perfil para guardar tu progreso y continuar aprendiendo completamente gratis.</string>
+    <string name="btn_1_bottom_request_profile_info">Crear perfil</string>
+    <string name="btn_2_bottom_request_profile_info">Mas tarde</string>
 
 </resources>

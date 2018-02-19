@@ -25,19 +25,35 @@
         <activity android:name=".DailyGoalSettingsActivity" />
         <activity
             android:name=".LoginActivity"
-            android:label="@string/activity_login_title"></activity>
+            android:label="@string/activity_login_title" />
         <activity
             android:name=".UserSessionDashboard"
             android:theme="@style/UserSessionDashboardTheme">
-            <!--<intent-filter>
+
+            <!--
+            <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>-->
+            </intent-filter>
+            -->
         </activity>
         <activity
             android:name=".DailyGoalActivity"
             android:label="@string/title_activity_dayli_goal">
+
+            <!--
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            -->
+        </activity>
+        <activity
+            android:name=".RequestProfileInfoActivity"
+            android:label="@string/title_activity_request_profile_info"
+            android:theme="@style/AppTheme.NoActionBar">
             <!--<intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
