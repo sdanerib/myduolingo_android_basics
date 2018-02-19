@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/menu1"
+            android:checked="false"
+            android:icon="@drawable/view_dashboard_variant"
+            android:iconTint="@color/licoriceStrong"
+            android:title="@string/drawer_1"
+            app:showAsAction="collapseActionView"
+            />
+
+        <item
+            android:id="@+id/menu2"
+            android:checked="false"
+            android:icon="@drawable/notebook"
+            android:iconTint="@color/licoriceStrong"
+            android:title="@string/drawer_2" />
+
+        <item
+            android:id="@+id/menu3"
+            android:checked="false"
+            android:icon="@drawable/stadium"
+            android:iconTint="@color/licoriceStrong"
+            android:title="@string/drawer_3" />
+
+
+    </group>
+</menu>
+

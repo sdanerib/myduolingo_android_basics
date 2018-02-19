@@ -11,6 +11,13 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="drawer_1_fragment">Drawer 1</string>
+    <string name="drawer_2_fragment">Drawer 2</string>
+    <string name="drawer_3_fragment">Drawer 3</string>
+
+    <string name="drawer_1">Inglés</string>
+    <string name="drawer_2">Francés</string>
+    <string name="drawer_3">Italiano</string>
 
     <string name="activity_login_title">Ingresar</string>
     <string name="txt_hint_user_login">Usuario o correo</string>
@@ -42,5 +49,8 @@
     <string name="profileBarText">Perfil</string>
     <string name="clubBarText">Clubs</string>
     <string name="storeBarText">Tienda</string>
+
+    <string name="closeDrawer">Navigation View</string>
+    <string name="openDrawer">Navigation View Closed</string>
 
 </resources>

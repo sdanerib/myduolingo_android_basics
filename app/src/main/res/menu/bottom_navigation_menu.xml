@@ -5,25 +5,27 @@
     <item
         android:id="@+id/learnBar"
         android:enabled="true"
-        android:icon="@mipmap/ic_store_black_48dp"
+        android:icon="@drawable/book_open_page_variant"
         android:title="@string/learnBarText"
-        app:showAsAction="ifRoom" />
+        app:showAsAction="withText" />
     <item
         android:id="@+id/profileBar"
         android:enabled="true"
-        android:icon="@mipmap/ic_store_black_48dp"
+        android:icon="@drawable/account_settings_variant"
         android:title="@string/profileBarText"
-        app:showAsAction="ifRoom" />
+        app:showAsAction="withText" />
     <item
         android:id="@+id/clubBar"
         android:enabled="true"
-        android:icon="@mipmap/ic_store_black_48dp"
+        android:icon="@drawable/shield_half_full"
         android:title="@string/clubBarText"
-        app:showAsAction="ifRoom" />
+        app:showAsAction="withText" />
+
+    <!--
     <item
         android:id="@+id/storeBar"
         android:enabled="true"
-        android:icon="@mipmap/ic_store_black_48dp"
+        android:icon="@drawable/store"
         android:title="@string/storeBarText"
-        app:showAsAction="ifRoom" />
+        app:showAsAction="withText" /> -->
 </menu>

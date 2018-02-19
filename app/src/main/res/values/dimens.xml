@@ -3,6 +3,7 @@
 
     <dimen name="btn_font_size">18sp</dimen>
     <dimen name="tvi_font_size">16sp</dimen>
+    <dimen name="nav_font_size">22sp</dimen>
     <dimen name="intro_text_font_size">20sp</dimen>
     <dimen name="btn_font_weight">700</dimen>
     <dimen name="menu_item_icon_size">10dp</dimen>
